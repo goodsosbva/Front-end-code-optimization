@@ -10,6 +10,7 @@ import ItemsPage from './pages/ItemsPage'
 import PartPage from './pages/PartPage'
 import RidingStylesPage from './pages/RidingStylesPage'
 
+// 사라졌다가 복사해서 억울하다..
 function App() {
 	return (
 		<div className="App">
