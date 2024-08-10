@@ -23,7 +23,7 @@ function ImageModal({ modalVisible, src, alt, bgColor }) {
       bgColor={bgColor}
     >
       <ImageWrap>
-        <FullImage crossOrigin="*" src={src} alt={alt} onLoad={onLoadImage} />
+        <FullImage crossOrigin="*" src={src} alt={alt} />
       </ImageWrap>
     </Modal>
   );
